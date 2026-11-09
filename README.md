@@ -94,6 +94,6 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 
 | WRF | Central Weather Administration | 
 | :---: | :---: | 
-| ![D1](Q10.png) | ![D2]("https://github.com/user-attachments/assets/18d5398a-fe1e-435f-b4bd-5328eb905e4c") | 
+| ![D1](Q10.png) | ![D2](https://github.com/user-attachments/assets/18d5398a-fe1e-435f-b4bd-5328eb905e4c) | 
 
 ---

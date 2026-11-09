@@ -39,7 +39,6 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 - **D02:** High resolution; accurately resolves >3,000m alpine topography and clearly distinguishes complex land-sea boundaries around the Taiwanese coastline[cite: 6].
 ---
 
-| D01 | D02 | 
 | :---: | :---: |
 | ![D01](Q6-d01.png) | ![D02](Q6-d02.png) |
 
@@ -50,7 +49,7 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 - **Simulation Response ($t+1h$ to $t+2h$):** Rapid adjustment occurs within the first hour. Western Taiwan land temperatures jump to $\sim 35^\circ\text{C}$, while mountain temperatures drop to $\sim 7^\circ\text{C}$[cite: 6]. 
 - **Physical Implication:** This sharp initial adjustment indicates a spin-up shock between initial atmospheric fields and surface physics, which could introduce numerical oscillations affecting subsequent forecast accuracy[cite: 6].
 ---
-| D01 | D02 | 
+
 | :---: | :---: |
 | ![D01](Q7-d01.png) | ![D02](Q7-d02.png) |
 
@@ -64,7 +63,6 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 
 ---
 
-| Day 1 (09/30 – 10/01) | Day 2 (10/01 – 10/02) | Day 3 (10/02 – 10/03) | 
 | :---: | :---: | :---: |
 | ![D1](Q8-0930-1001.png) | ![D2](Q8-1001-1002.png) | ![D3](Q8-1002-1003.png) |
 
@@ -76,11 +74,9 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 
 ---
 
-| 09/30 – 10/01 | 10/01 – 10/01 | 
 | :---: | :---:| 
 | ![D1](Q9-0930-1001.png) | ![D2](Q9-1001-1001.png) | 
 
-| 10/02 – 10/02 | 10/02 – 10/03 | 
 | :---: |:---:|
 | ![D3](Q9-1002-1002.png) | ![D3](Q9-1002-1003.png) |
 

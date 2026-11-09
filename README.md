@@ -74,6 +74,25 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 - **Variables & Tooling:** Extracted using `interplevel` for geopotential/wind vectors (`ua`, `va`) and reflectivity (`refl`) at $2\text{ km}$ altitude[cite: 8].
 - **Synoptic Evolution:** Captured Typhoon Krathon lingering in southern offshore waters on 09/30, tracking westward, pivoting eastward toward Taiwan on 10/01, and eventually weakening over central Taiwan around the evening of 10/02[cite: 8, 9].
 
+---
+
+| 09/30 – 10/01 | 10/01 – 10/01 | 10/02 – 10/02 | 10/02 – 10/03 | 
+| :---: | :---: | :---: |:---: |
+| ![D1](Q8-0930-1001.png) | ![D2](Q8-1001-1001.png) | ![D3](Q8-1002-1002.png) | ![D3](Q8-1002-1003.png) |
+
+
+---
+
 ### 10. Typhoon Track Verification (Absolute Vorticity Method)
 - **Methodology:** Tracked using the maximum **Absolute Vorticity (`avo`)** at the **$538\text{ hPa}$** level (tested across multiple vertical levels; $538\text{ hPa}$ yielded the closest alignment with observations compared to minimum pressure methods)[cite: 9].
 - **Findings:** Successfully replicated the loop and northward trajectory from 09/30 to 10/02. Minor deviation occurred on 10/03 due to strong ambient wind interference over northern airspace affecting vortex core identification[cite: 9].
+
+---
+
+| 09/30 – 10/01 | 10/01 – 10/01 | 
+| :---: | :---: | 
+| ![D1](Q10.png) | <img width="280" height="260" alt="image" src="https://github.com/user-attachments/assets/18d5398a-fe1e-435f-b4bd-5328eb905e4c" />
+| 
+
+
+---

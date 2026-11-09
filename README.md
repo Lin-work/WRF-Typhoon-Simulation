@@ -78,7 +78,7 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 
 | 09/30 – 10/01 | 10/01 – 10/01 | 10/02 – 10/02 | 10/02 – 10/03 | 
 | :---: | :---: | :---: |:---: |
-| ![D1](Q8-0930-1001.png) | ![D2](Q8-1001-1001.png) | ![D3](Q8-1002-1002.png) | ![D3](Q8-1002-1003.png) |
+| ![D1](Q9-0930-1001.png) | ![D2](Q9-1001-1001.png) | ![D3](Q9-1002-1002.png) | ![D3](Q9-1002-1003.png) |
 
 
 ---
@@ -89,10 +89,8 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 
 ---
 
-| 09/30 – 10/01 | 10/01 – 10/01 | 
+| WRF | Central Weather Administration  | 
 | :---: | :---: | 
-| ![D1](Q10.png) | <img width="280" height="260" alt="image" src="https://github.com/user-attachments/assets/18d5398a-fe1e-435f-b4bd-5328eb905e4c" />
-| 
-
+| ![D1](Q10.png) | ![D2] <img width="280" height="260" alt="image" src="https://github.com/user-attachments/assets/18d5398a-fe1e-435f-b4bd-5328eb905e4c" />| 
 
 ---

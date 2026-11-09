@@ -39,6 +39,7 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 - **D02:** High resolution; accurately resolves >3,000m alpine topography and clearly distinguishes complex land-sea boundaries around the Taiwanese coastline[cite: 6].
 ---
 
+| | |
 | :---: | :---: |
 | ![D01](Q6-d01.png) | ![D02](Q6-d02.png) |
 
@@ -50,6 +51,7 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 - **Physical Implication:** This sharp initial adjustment indicates a spin-up shock between initial atmospheric fields and surface physics, which could introduce numerical oscillations affecting subsequent forecast accuracy[cite: 6].
 ---
 
+| | |
 | :---: | :---: |
 | ![D01](Q7-d01.png) | ![D02](Q7-d02.png) |
 
@@ -63,6 +65,7 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 
 ---
 
+| | | |
 | :---: | :---: | :---: |
 | ![D1](Q8-0930-1001.png) | ![D2](Q8-1001-1002.png) | ![D3](Q8-1002-1003.png) |
 
@@ -74,9 +77,11 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 
 ---
 
+| | |
 | :---: | :---:| 
 | ![D1](Q9-0930-1001.png) | ![D2](Q9-1001-1001.png) | 
 
+| | |
 | :---: |:---:|
 | ![D3](Q9-1002-1002.png) | ![D3](Q9-1002-1003.png) |
 

@@ -38,7 +38,7 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 - **D01:** Low resolution; major Taiwanese peaks above 3,000m are smoothed out, and marine boundaries are treated homogeneously near zero altitude[cite: 6].
 - **D02:** High resolution; accurately resolves >3,000m alpine topography and clearly distinguishes complex land-sea boundaries around the Taiwanese coastline[cite: 6].
 | D01 | D02 | 
-| :--: | :--: |
+| :---: | :---: |
 | ![D01](Q6-d01.png) | ![D02](Q6-d02.png) |
 
 ### 7. Surface Temperature Spin-up Analysis ($t+0h$ to $t+2h$)
@@ -46,7 +46,7 @@ WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Che
 - **Simulation Response ($t+1h$ to $t+2h$):** Rapid adjustment occurs within the first hour. Western Taiwan land temperatures jump to $\sim 35^\circ\text{C}$, while mountain temperatures drop to $\sim 7^\circ\text{C}$[cite: 6]. 
 - **Physical Implication:** This sharp initial adjustment indicates a spin-up shock between initial atmospheric fields and surface physics, which could introduce numerical oscillations affecting subsequent forecast accuracy[cite: 6].
 | D01 | D02 | 
-| :--: | :--: |
+| :---: | :---: |
 | ![D01](Q7-d01.png) | ![D02](Q7-d02.png) |
 
 ### 8. Multi-Day Accumulated Rainfall Validation ($24\text{-hr}$ Acc. Rain)

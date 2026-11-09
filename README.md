@@ -22,12 +22,8 @@ This repository contains the workflow, configuration files, and Python post-proc
 <img width="317" height="263" alt="image" src="https://github.com/user-attachments/assets/bd761b4b-05dd-46bf-aca1-1617b32cec86" />
 
 ### 3. Namelist Parameter Tuning & Troubleshooting
-- **Grid Setup:** $\text{e\_we} = 351, 351$; $\text{e\_sn} = 351, 351$; $\text{e\_vert} = 45$; $\text{dx} = \text{dy} = 9000 \to 3000\text{m}$[cite: 4].
-- **Physics Suite Assigned:** 
-  - Microphysics: `mp_physics = 21` (Thompson aerosol-aware scheme)[cite: 4]
-  - Cumulus Parameterization: `cu_physics = 2` (Kain-Fritsch)[cite: 4]
-  - Boundary Layer: `bl_pbl_physics = 2` (YSU scheme)[cite: 4]
-- **Troubleshooting Notes:** Encountered initial failures due to physics suite conflicts. Specifically, because `mp_physics = 21` is a high-resolution explicit convection scheme, retaining `cu_physics = 2` in the high-resolution D02 domain caused runtime failures due to double-counting convection. Adjusting and cleaning the namelist parameters successfully resolved the issue[cite: 4].
+<img width="353" height="181" alt="image" src="https://github.com/user-attachments/assets/5f44b0ec-2440-49e2-b062-6bb87b6a51b3" />
+
 
 ### 4. Workflow Execution Pipeline
 The end-to-end numerical simulation workflow:

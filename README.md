@@ -19,6 +19,7 @@ This repository contains the workflow, configuration files, and Python post-proc
 
 ### 2. Domain Configuration (WPS Domain Settings)
 - **Rationale:** Given Typhoon Krathon's southern track near Taiwan's southern offshore waters, **Domain 2 (D02)** was specifically configured to capture regional dynamics around southern Taiwan, while **Domain 1 (D01)** followed standard regional assignment guidelines[cite: 3].
+<img width="317" height="263" alt="image" src="https://github.com/user-attachments/assets/bd761b4b-05dd-46bf-aca1-1617b32cec86" />
 
 ### 3. Namelist Parameter Tuning & Troubleshooting
 - **Grid Setup:** $\text{e\_we} = 351, 351$; $\text{e\_sn} = 351, 351$; $\text{e\_vert} = 45$; $\text{dx} = \text{dy} = 9000 \to 3000\text{m}$[cite: 4].
@@ -32,7 +33,7 @@ This repository contains the workflow, configuration files, and Python post-proc
 The end-to-end numerical simulation workflow:
 ```text
 WPS Geogrid/Metgrid ➔ Modify namelist.input ➔ real.sbatch (real.exe) ➔ Check real.error ➔ wrfrun_sbatch.sh (wrf.exe, ~4.5 hrs) ➔ wrfout generation ➔ Python Post-processing
-```[cite: 5]
+```
 
 ### 5. Job Runtime Performance
 - The full 3-day multi-domain simulation successfully completed via Slurm job scheduling in approximately **4 hours and 27 minutes** (`Job_id = 15453654`, `COMPLETED`)[cite: 5].
